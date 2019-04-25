@@ -13,6 +13,7 @@ class Dog
   def self.all
     @@all.each do |dog_each|
       puts dog_each.name
+      binding.pry
     end
   end
 
